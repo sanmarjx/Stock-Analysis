@@ -1,7 +1,7 @@
 # Stock-Analysis With Excel VBA
 ## Overview of Project
 ### Purpose
-The purpose of this project is to refactor a Microsoft Excel VBA code to obtain stock information from the year 2017 and 2018 and determine whether or not the stocks were a good investment. We want to refactor the code to make it more efficient by making it making it easier to read and taking fewer steps. We will be able to test if our code is running faster by checking the run time for each Macro.
+The purpose of this project is to refactor a Microsoft Excel VBA code to obtain stock information from the years 2017 and 2018 and determine whether or not the stocks were a good investment. We want to refactor the code to make it more efficient by making it easier to read and taking fewer steps. We will be able to test if our code is running faster by checking the run time for each Macro.
 ### Results
 #### Analysis
 The project began with a code that we copied and pasted into VBA. We then refactored the code to make it more efficient. This is the process that we followed to improve the code.
@@ -9,7 +9,7 @@ The project began with a code that we copied and pasted into VBA. We then refact
 ![Step1 1](https://user-images.githubusercontent.com/116690861/201403978-50fdf6df-5b42-4cda-8b0c-3cda3cee10b8.png)
 
 ##### 2- Created a loop to initialize the volume to zero. Created a second loop to go over all the rows. 
-- In this step I also set the starting and ending price to zero because i thought it would be beneficial to the code.
+- In this step I also set the starting and ending price to zero because I thought it would be beneficial to the code.
 ![Step 2](https://user-images.githubusercontent.com/116690861/201404461-c119bca4-540c-4e31-b4f9-c6723b61465a.png)
 
 ##### 3- Included IF statements to the loop find the start and end prices of the tickers as well as increasing the ticker index.
